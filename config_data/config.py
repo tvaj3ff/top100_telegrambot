@@ -9,6 +9,7 @@ else:
 DB_PATH = "database.db"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 RAPID_API_KEY = os.getenv("RAPID_API_KEY")
+
 DEFAULT_COMMANDS = (
     ("start", "запуск"),
     ("high", "Вывод фильм #1"),
