@@ -29,16 +29,17 @@ class User(BaseModel):
 
 
 class History(BaseModel):
-    history_id = AutoField()
+    history_id = AutoField(primary_key=True)
     created_at = DateField()
     user = ForeignKeyField(User, backref="history")
     message = TextField()
 
     def __str__(self):
-        return "{id}.{date} - {message}".format(
+        return "{id}.{created_at} - {user} - {message}".format(
             id=self.history_id,
+            created_at=self.created_at.strftime(DATE_FORMAT),
+            user=self.user,
             message=self.message,
-            date=self.created_at.strftime(DATE_FORMAT),
         )
 
 

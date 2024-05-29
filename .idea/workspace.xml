@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46f08ac-1416-4371-a17c-3303a62d6e00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/core.py" afterDir="false" />
+    <list default="true" id="a46f08ac-1416-4371-a17c-3303a62d6e00" name="Changes" comment="test CRUD on db">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config_data/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/CRUD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/high.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/high.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/low.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/low.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/top_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/top_100.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/default/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/default/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default/start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,9 +157,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.api" />
         <item itemvalue="Python.top_100" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.api" />
       </list>
     </recent_temporary>
@@ -191,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715242193840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="database connection">
+      <option name="closed" value="true" />
+      <created>1716487617333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716487617333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test CRUD on db">
+      <option name="closed" value="true" />
+      <created>1717010661654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717010661654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -200,6 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="database model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="database model added" />
+    <MESSAGE value="database connection" />
+    <MESSAGE value="test CRUD on db" />
+    <option name="LAST_COMMIT_MESSAGE" value="test CRUD on db" />
   </component>
 </project>

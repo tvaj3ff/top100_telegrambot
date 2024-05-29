@@ -1,4 +1,4 @@
-from CRUD import CRUDInterface
+from .CRUD import CRUDInterface
 from models.model_db import db, BaseModel
 
 db.connect()
