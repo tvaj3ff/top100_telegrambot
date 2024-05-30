@@ -16,8 +16,10 @@ def bot_start(message: Message):
         bot.reply_to(message, "Вы не зарегистрированы. Напишите /start")
         return
 
-    history: List[History] = History.select(History.message)
+    history: List[History] = user.history.order_by(-History.history_id).limit(10)
+
     result = []
+
     result.extend(map(str, reversed(history)))
     History.create(
         user_id=user_id,
@@ -28,5 +30,5 @@ def bot_start(message: Message):
     if not result:
         bot.send_message(message.from_user.id, "У вас ещё нет истории")
         return
-    text = '<br>Ваша история:</br>\n'
+    text = 'Ваша история:\n'
     bot.send_message(message.chat.id, text + '\n'.join(result), parse_mode='html')
