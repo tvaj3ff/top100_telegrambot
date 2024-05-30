@@ -6,7 +6,7 @@ from telebot.types import Message
 from models.model_db import History, User
 
 
-@bot.message_handler(commands=["start"])
+@bot.message_handler(commands=["history"])
 def bot_start(message: Message):
     user_id = message.from_user.id
     command = message.text
