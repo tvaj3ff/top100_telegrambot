@@ -11,4 +11,4 @@ headers = {
 response = requests.get(url, headers=headers)
 
 movies_list = response.json()
-# print(len(movies_list))
+# print(movies_list)
