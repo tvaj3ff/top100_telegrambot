@@ -13,8 +13,7 @@ def get_movies_list(api_key):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return response.json()
-    else:
-        return response.status_code
+    return response.status_code
 
 
 def get_series_list(api_key):
@@ -28,8 +27,7 @@ def get_series_list(api_key):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return response.json()
-    else:
-        return response.status_code
+    return response.status_code
 
 
 movies_list = get_movies_list(RAPID_API_KEY)
