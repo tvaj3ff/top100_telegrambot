@@ -5,6 +5,6 @@ from telebot.types import Message
 @bot.message_handler(state=None)
 def bot_echo(message: Message):
     if message.text == "Привет":
-        bot.reply_to(message, "И тебе привет!")
+        bot.reply_to(message, "И Вам привет!")
     else:
-        bot.reply_to(message, "Я тебя не понимаю")
+        bot.reply_to(message, "Я Вас не понимаю")

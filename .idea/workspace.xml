@@ -12,6 +12,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/model_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_db.py" afterDir="false" />
+    <list default="true" id="a46f08ac-1416-4371-a17c-3303a62d6e00" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/custom/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/custom/history.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,6 +240,7 @@
       <updated>1717090470188</updated>
     </task>
     <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -248,7 +252,9 @@
     <MESSAGE value="database connection" />
     <MESSAGE value="test CRUD on db" />
     <MESSAGE value="test" />
+
     <MESSAGE value="history command test" />
     <option name="LAST_COMMIT_MESSAGE" value="history command test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
