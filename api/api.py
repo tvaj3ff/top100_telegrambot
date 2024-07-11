@@ -32,3 +32,5 @@ def get_series_list(api_key):
 
 movies_list = get_movies_list(RAPID_API_KEY)
 series_list = get_series_list(RAPID_API_KEY)
+movies_list = response.json()
+# print(movies_list)
